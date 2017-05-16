@@ -31,12 +31,3 @@ The steps the script follows are:
 
 # Admin Roles Text File
 This file is where you place the role that the script is to assume in the target account. The autotagger will execute accounts in the order in which they are placed in this file.
-
-# Customer Tag Names File
-This is the file where the ARN of the account role is mapped to the custom tag name we wish to see. ARN's not included here will not be tagged with a custom tag but instead will tag the resource with the ARN it finds that created it. If after running the autotagger you see ARN's tagged to resources add those ARN's to this file (order is not important) with the custom tag you'd like to see for that role in the following format:
-
-ARN = custom tag
-
-Be sure to have no spaces before ARN and preserve spacing above on each side of equals. An example would be
-
-arn:aws:iam::189825870243:root/root = customrole
