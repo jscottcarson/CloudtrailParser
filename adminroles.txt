@@ -1,4 +1,3 @@
-arn:aws:iam::189825870243:role/dev-chs-admins
-arn:aws:iam::548849508628:role/dev-embg-admins
-arn:aws:iam::533894179857:role/dev-sbox-admins
+arn:aws:iam::xxxxxxx:role/
+
 
