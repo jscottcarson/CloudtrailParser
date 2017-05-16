@@ -1,6 +1,6 @@
-# Autotagger
+# Cloudtrail Parser
 
-This is the script that executes the auto-tagging of resources in CHS accounts. 
+This is the script that executes the auto-tagging of resources 
 
 The following dependancies must be installed for the script to work:
 
@@ -39,4 +39,4 @@ ARN = custom tag
 
 Be sure to have no spaces before ARN and preserve spacing above on each side of equals. An example would be
 
-arn:aws:iam::189825870243:root/root = CHS-Root-Role
+arn:aws:iam::189825870243:root/root = customrole
