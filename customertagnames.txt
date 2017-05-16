@@ -1,2 +1,0 @@
-
-arn:aws:iam::xxxxx:root/root = customtag
